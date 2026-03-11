@@ -69,7 +69,7 @@ class Attachment {
 enum AttachmentState { queuedUpload, queuedDownload, queuedDelete, archived }
 
 // ignore: deprecated_subclass
-final class AttachmentsQueueTable extends Table {
+base class AttachmentsQueueTable extends Table {
   AttachmentsQueueTable(
       {String attachmentsQueueTableName = defaultAttachmentsQueueTableName,
       List<Column> additionalColumns = const [],

@@ -315,26 +315,29 @@ packages:
     source: hosted
     version: "2.1.8"
   powersync_core:
-    dependency: "direct overridden"
+    dependency: transitive
     description:
-      path: "../../powersync_core"
-      relative: true
-    source: path
-    version: "1.7.0"
+      name: powersync_core
+      sha256: "74422b5c66cdd749155380df9bd994591a23a5373ae3163516f47123963da94d"
+      url: "https://pub.dev"
+    source: hosted
+    version: "1.8.0"
   powersync_flutter_libs:
-    dependency: "direct overridden"
+    dependency: transitive
     description:
-      path: "../../powersync_flutter_libs"
-      relative: true
-    source: path
-    version: "0.4.14"
+      name: powersync_flutter_libs
+      sha256: "3836fd9b4f351aae3229eed1fb0346a2dffa9151792c90f83682e6508ff4df0b"
+      url: "https://pub.dev"
+    source: hosted
+    version: "0.4.15+1"
   powersync_sqlcipher:
     dependency: "direct main"
     description:
-      path: ".."
-      relative: true
-    source: path
-    version: "0.1.15"
+      name: powersync_sqlcipher
+      sha256: "315fc6fad8df9451318fc5e1b424fc70aec845085b6308f8100ba8016adba361"
+      url: "https://pub.dev"
+    source: hosted
+    version: "0.1.16"
   process:
     dependency: transitive
     description:
@@ -472,10 +475,10 @@ packages:
     dependency: transitive
     description:
       name: test_api
-      sha256: "19a78f63e83d3a61f00826d09bc2f60e191bf3504183c001262be6ac75589fb8"
+      sha256: "93167629bfc610f71560ab9312acdda4959de4df6fac7492c89ff0d3886f6636"
       url: "https://pub.dev"
     source: hosted
-    version: "0.7.8"
+    version: "0.7.9"
   typed_data:
     dependency: transitive
     description:
